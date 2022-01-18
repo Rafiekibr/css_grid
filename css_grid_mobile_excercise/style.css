@@ -1,0 +1,60 @@
+
+.header {
+    background-color: rgb(81, 81, 216);
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    
+}
+
+.main {
+    
+    background-color: rgba(81, 216, 110, 0.897);
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    
+}
+
+.widget {
+  
+    background-color: rgb(151, 81, 216);
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    border-top: whitesmoke 3px solid;
+}
+
+.footer {
+    
+    background-color: rgb(81, 81, 216);
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    border-top: whitesmoke 3px solid;
+    
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+    border: rgb(167, 165, 165) 3px solid;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 3px;
+}
+
+.header {
+    grid-row: 1 / 2;
+
+}
+
+.main {
+    grid-row: 2 / 7;
+}
+
+.widget {
+    grid-row: 7 / 10;
+}
+
